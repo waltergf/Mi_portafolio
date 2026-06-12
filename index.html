@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">        
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+
+    <title>Walter gonzalez </title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Iconos---->
+    <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--AOS ANIMACIONES -->   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />  
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Walter gonzalez</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#SOBRE MI">SOMBRE MI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#HABILIDADES">HABILIDADES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#CERTIFICADOS">CERTIFICADOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#CONTACTO">CONTACTO</a>
+            </ul>
+          </div>
+    </nav>
+
+    <!--HERO-->
+    <section id="INICIO"class="hero">
+       <div class="container tex-container">
+           <img src="img/foto.jpg" class="foto" data-aos="zoom-in" alt="Foto">
+           <h1 data-aos="dade-upo">
+               Walter gonzalez</h1>
+           <h3 data-aos="fade-up">
+               Desarrollador web / java/phyton / javascrip </h3>
+           <p data-aos="fade-up">
+               Soy un desarrollador web apasionado por la tecnología y la programación. <br>Con experiencia en Java, Python y JavaScript, me especializo en crear soluciones innovadoras y eficientes para desafíos tecnológicos. Mi objetivo es seguir creciendo como profesional y contribuir al desarrollo de proyectos impactantes en el mundo digital.</p>
+           <a href="documento/Hoja de vidaw.pdf"
+              download
+              class="btn btn-success btn-lg"> Descargar Hoja de Vida </a>
+       </div>
+    </section>
+    <!--SOBRE MI-->
+    <section id="SOBRE MI" class="container py-5">
+        <h2 class="titulo" data-aos="fade-right">
+
+        </h2>
+      <p data-aos="fade-left">
+        Soy un desarrollador web apasionado por la tecnología y la programación. <br>Con experiencia en Java, Python y JavaScript, me especializo en crear soluciones innovadoras y eficientes para desafíos tecnológicos. Mi objetivo es seguir creciendo como profesional y contribuir al desarrollo de proyectos impactantes en el mundo digital.
+      </p>
+    </section>
+    <!--HABILIDADES-->
+    <section id="HABILIDADES" class="container py-5">
+        <h2 class="titulo" data-aos="fade-right">HABILIDADES</h2>
+        <div class="row">
+            <div class="col-md-4" data-aos="fade-up">
+                <h3>Java</h3>
+                <p>Experiencia en desarrollo de aplicaciones Java,.</p>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <h3>Python</h3>
+                <p>Conocimiento en Python para desarrollo web con Django y análisis de datos.</p>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <h3>JavaScript</h3>
+                <p>Habilidad en JavaScript para desarrollo frontend </p>
+            </div>
+        </div>
+    </section>
+    <!--CERTIFICADOS-->
+    <section id="CERTIFICADOS" class="container py-5">
+        <h2 class="titulo" data-aos="fade-right">CERTIFICADOS</h2>
+        <div class="row">
+            <div class="col-md-4" data-aos="fade-up">
+                <h3>Certificado Java</h3>
+                <p>Certificación en desarrollo de aplicaciones Java .</p>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <h3>Certificado Python</h3>
+                <p>Certificación en desarrollo web co.</p>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <h3>Certificado JavaScript</h3>
+                <p>Certificación en desarrollo frontend .</p>
+                <a href="documento/Certificados/certificados.pdf" download class="btn btn-primary mt-3">Descargar Certificado</a>
+            
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACTO-->
+    <section id="CONTACTO" class="container py-5">
+        <h2 class="titulo" data-aos="fade-right">CONTACTO</h2>
+        <form id="Formulario">
+            <input type="text" placeholder="Nombre" class="form-control mb-3"  required>
+            <input type="email" placeholder="Correo Electrónico" class="form-control mb-3"  required>
+            <textarea placeholder="Mensaje" class="form-control mb-3" rows="5" required></textarea>
+            <button type="submit" class="btn btn-success">Enviar Mensaje</button>
+        </form>
+    </section>
+    <!--Footer-->
+        <footer>
+            <div class="redes">
+                <a href="https://github.com/waltergf">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/walter-wilmar-gonzalez-feliciano-87a893250">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://wa.me/573227515496">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+                <p>&copy; 2024 Walter gonzalez. Todos los derechos reservados.</p>
+
+        </footer>
+        <!--scripts-->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="script.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+
+
+
+
+</body>
+</html>
